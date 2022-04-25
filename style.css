@@ -1,0 +1,176 @@
+@font-face {
+    font-family: 'DINProBold';
+    font-weight: bold;
+    src: local("DINPro Bold"), url("DINPro Bold.otf") format("opentype");
+}
+
+body {
+    background-color: green;
+    font-family: 'DINProBold', sans-serif;
+}
+
+.player-card {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 982px;
+    height: 387px;
+    /*font-family: "Lustra Text Semibold", sans-serif;*/
+    color: white;
+    text-transform: uppercase;
+}
+
+.player-card>div,
+table {
+    position: absolute;
+}
+
+.player-card>.color-bg {
+    top: 40px;
+    height: 347px;
+    width: 100%;
+}
+
+.player-card>.name {
+    line-height: 145px;
+    width: 100%;
+    font-size: 77px;
+    text-align: center;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.player-card>.name-black-bg {
+    opacity: 0.2;
+}
+
+.player-card>.boost {
+    top: 303px;
+    width: 100%;
+    height: 84px;
+    font-size: 67px;
+    line-height: 84px;
+    text-align: center;
+    color: black
+}
+
+.player-card>.boost-bg {
+    transition: width 0.1s;
+}
+
+.player-card>.boost-empty-bg {
+    background-color: white;
+    top: 303px;
+    width: 100%;
+    height: 84px;
+}
+
+.player-card>.boost-bg {
+    top: 303px;
+    height: 84px;
+    background-color: #f2a900;
+}
+
+.player-card>.stat-table {
+    top: 166px;
+    table-layout: fixed;
+    width: 100%;
+    text-align: center;
+}
+
+.player-card>.stat-table>.tr {
+    font-size: 35px;
+}
+
+.player-card>.stat-table>.td {
+    /*font-family: 'Lustra Text Book', sans-serif;*/
+    font-size: 66px;
+}
+
+#scorebug-wrapper {
+    position: absolute;
+    top: 0;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+}
+
+.scorebug {
+    color: white;
+}
+
+.scorebug {
+    /*position: absolute;
+    top: 0px;
+    left: 50%;*/
+    color: white;
+    font-size: 34px;
+    /*font-family: Calibri;*/
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    height: 70px;
+}
+
+.scorebug>div>span {}
+
+.scorebug>div {
+    padding: 1rem;
+    background-color: rgba(0, 0, 0, .8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.timer,
+.score {
+    font-size: 64px;
+}
+
+.team {
+    width: 200px;
+}
+
+.score.right {
+    background-color: #f2a900;
+}
+
+.score.left {
+    background-color: #4971ea;
+}
+
+.team.right {
+    border-top: #f2a900 solid 10px;
+    text-align: start;
+}
+
+.team.left {
+    border-top: #4971ea solid 10px;
+    text-align: end;
+    width: 200px;
+}
+
+body {
+    /background-image: url("ref1.png");
+}
+
+.parent {
+    // background-image: url('http://lorempixel.com/600/350');
+    background-size: cover;
+    background-position: center center;
+    padding: 100px;
+}
+
+.slanted {
+    color: white;
+    background: url("data:image/svg+xml;utf8,<svg viewBox='0 0 200 100' xmlns='http://www.w3.org/2000/svg'  preserveAspectRatio='none'><polygon points='0,300 0,0 150,0 300,300' width='100%' height='100%' style='fill:black;'/></svg>");
+    background-size: contain;
+    width: 300px;
+    font-size: 2em;
+    padding: 4px 0px 4px 40px;
+    position: absolute;
+}

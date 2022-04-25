@@ -1,0 +1,40 @@
+#blue-score-number {
+    position: absolute;
+    left: 842px;
+    /* 24, 40 */
+    top: 68px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 43pt;
+    color: white;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
+
+#orange-score-number {
+    position: absolute;
+    left: 1079px;
+    top: 68px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 43pt;
+    color: white;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
+
+#game-timer {
+    position: absolute;
+    left: 960px;
+    top: 70px;
+    font-size: 35pt;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    color: white;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
+
+body {
+    background-image: url("ingame copy 1080p measurements.png");
+}
